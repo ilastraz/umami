@@ -10,9 +10,6 @@
     "url": "https://github.com/umami-software/umami.git"
   },
   
-  "engines": {
-  "node": "22.x"
-},
   "scripts": {
     "dev": "next dev -p 3000 --turbo",
     "build": "npm-run-all check-env build-db check-db build-tracker build-geo build-app",
